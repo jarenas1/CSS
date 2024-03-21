@@ -1,0 +1,31 @@
+.titulo {
+    color: black;text-align: center; font-size: 40px; 
+}
+
+.header {
+    background-color: blueviolet;
+}
+
+.link {
+    color: black; font-weight: 700;
+}
+
+body {
+    background-image: url(https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnphrgz8yfnjylrwfr0yl.png)
+}
+
+.estrofa {
+    color: white;text-align: center;font-size: larger;font-weight: 700; font-family: 'Times New Roman', Times, serif;
+}
+
+.parrafo1 {
+    color:yellow ; text-align: center;
+}
+
+.parrafo2 {
+    color: blue; text-align: center;
+}
+
+.parrafo3 {
+    color: red; text-align: center;
+}
