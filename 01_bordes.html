@@ -1,14 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/css/01_bordes.css">
+    <link rel="stylesheet" href="./src/css/01_bordes.css">
     <title>Bordes</title>
 </head>
+
 <body>
-    <header></header>
-    <main></main>
+    <header class="header">
+        <h1>holallalal</h1>
+        <p>pepepdjidkcndskjcnjdkcnjdsncdkjwndjcnjsdnskjdncskj</p>
+
+    </header>
+    <main>
+        <section>
+            <p id="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi recusandae consectetur vitae
+                perferendis magni eius ut, similique quo laborum qui. Vel consequuntur in voluptates soluta odit id
+                molestias unde quidem?</p>
+        </section>
+
+        <section>
+            <h2>Bordes completos</h2>
+            <p class="dotted">Un borde punteado.</p>
+            <p class="dashed">Un borde discontinuo.</p>
+            <p class="solid">Un borde sólido.</p>
+            <p class="double">Un borde doble.</p>
+            <p class="groove">Un borde en relieve.</p>
+            <p class="ridge">Un borde en relieve invertido.</p>
+            <p class="inset">Un borde en relieve interno.</p>
+            <p class="outset">Un borde en relieve externo.</p>
+            <p class="none">Sin borde.</p>
+            <p class="hidden">Un borde oculto.</p>
+            <p class="mix">Un borde mixto.</p>
+                  
+        </section>
+
+        <section>
+            <h2>La propiedad border-width</h2>
+            <article>
+                <p>Esta propiedad especifica el ancho de los cuatro bordes:</p>
+                <p class="one">Algo de texto.</p>
+                <p class="two">Algo de texto.</p>
+                <p class="three">Algo de texto.</p>
+                <p class="four">Algo de texto.</p>
+                <p class="five">Algo de texto.</p>
+                <p class="six">Algo de texto.</p>
+                <p><b>Nota:</b> La propiedad "border-width" no funciona si se utiliza sola.
+                    Siempre especifique primero la propiedad "border-style" para establecer los bordes.</p>
+            </article>
+            <article>
+                <h2>La propiedad border-width con tamaño especifico</h2>
+                <p>La propiedad border-width puede tener de uno a cuatro valores (para el borde superior, borde derecho,
+                    borde inferior y borde izquierdo):</p>
+                <p class="uno">Algo de texto.</p>
+                <p class="dos">Algo de texto.</p>
+                <p class="tres">Algo de texto.</p>
+            </article>
+                  
+        </section>
+
+        <section>
+            <figure>
+                <img src="https://images.ecestaticos.com/pSGD7UPcsEzyFzmiyg8jcBomWQs=/0x110:2120x1302/1200x1200/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F721%2F122%2F714%2F72112271431cb1078c3fe3e75ad5ab41.jpg"
+                    alt="perro" id="im1">
+                <figcaption>Perro</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://images.hola.com/imagenes/mascotas/20201104178485/consejos-gatos-para-principiantes/0-884-859/gatito-m.jpg?tx=w_680"
+                    alt="gato" id="im2">
+                <figcaption>Gato</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/European_Common_Frog_Rana_temporaria_%28cropped%29.jpg/1200px-European_Common_Frog_Rana_temporaria_%28cropped%29.jpg"
+                    alt="rana" id="im3">
+                <figcaption>Rana</figcaption>
+            </figure>
+
+            <figure>
+                <img src="data:image/jpeg;base64,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"
+                    alt="lobo" id="im4">
+                <figcaption>Lobo</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://static.nationalgeographic.es/files/styles/image_3200/public/01-lion-populations-nationalgeographic_1777804.jpg?w=1900&h=1267"
+                    alt="leon" id="im5">
+                <figcaption>Leon</figcaption>
+            </figure>
+        </section>
+    </main>
     <footer></footer>
 </body>
+
 </html>
