@@ -1,0 +1,9 @@
+section{
+    border: 1px black solid;
+    height: 200px;
+}
+
+img {
+    border: 20px red solid;
+    margin: 10px;
+}
